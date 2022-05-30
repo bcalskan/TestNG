@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class reactWebsiteTest {
+public class Q3_ReactWebsiteTest {
     @Test
     public void test01() throws IOException {
 

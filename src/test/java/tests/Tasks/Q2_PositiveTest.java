@@ -8,7 +8,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 
-public class Q2 {
+public class Q2_PositiveTest {
 
     @Test
     public void positiveLogInTest() throws InterruptedException {
