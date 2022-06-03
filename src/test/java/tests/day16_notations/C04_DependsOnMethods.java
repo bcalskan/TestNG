@@ -27,7 +27,7 @@ public class C04_DependsOnMethods extends TestBaseClass {
     @Test
     public void test01() {
         driver.get("https://www.ramazon1.com");
-       // driver.get("https://www.amazon.com");
+        // driver.get("https://www.amazon.com");
     }
 
     @Test(dependsOnMethods = "test01")
@@ -44,7 +44,7 @@ public class C04_DependsOnMethods extends TestBaseClass {
         Assert.assertTrue(sonucYaziElementi.getText().contains("Nutella"));
     }
 
-    @Test
+    @Test(groups = {"grup1", "grup2"})
     public void test04() {
         System.out.println("Bak bu calisti");
     }
