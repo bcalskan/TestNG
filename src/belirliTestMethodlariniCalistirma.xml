@@ -10,7 +10,7 @@
 
     Eger methodlar dependsOn ile birbirine baglanmissa
     xml dosyasi calisirken celiski olusmamasi lazim
-    celiskli durumunda testler calismaz
+    celiski durumunda testler calismaz
 
     suite taginin icine yazilacak verbose attribute
     konsolda cikan mesajlarin daha az veya daha cok olmasini belirler
