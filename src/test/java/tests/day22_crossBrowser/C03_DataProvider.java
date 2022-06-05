@@ -9,8 +9,7 @@ import utilities.ConfigReader;
 import utilities.CrossDriver;
 import utilities.Driver;
 
-public class C03_DatProvider {
-
+public class C03_DataProvider {
 
     //amazon git
     //nutella arat
