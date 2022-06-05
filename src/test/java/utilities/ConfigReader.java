@@ -16,12 +16,9 @@ public class ConfigReader {
             properties = new Properties();
             properties.load(fis); // fisin okudgu bilgileri properties´e yükledi
 
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 
     public static String getProperty(String key) {
@@ -32,6 +29,4 @@ public class ConfigReader {
          */
         return properties.getProperty(key);
     }
-
-
 }
